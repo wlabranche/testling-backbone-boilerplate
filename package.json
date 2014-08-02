@@ -16,7 +16,7 @@
   "testling": {
     "harness": "mocha",
     "browsers": [
-      "chrome/latest"
+      "firefox/19"
     ],
     "files": ["./app/*.js"],
     "scripts": [
