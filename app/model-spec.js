@@ -1,6 +1,6 @@
-var expect = chai.expect;
-
 var Model = require( "./model" );
+
+var expect = chai.expect;
 
 var model;
 
