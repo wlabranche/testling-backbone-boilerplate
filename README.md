@@ -10,4 +10,4 @@ Make sure `browserify` and `testling` are installed globally. Run `npm test` and
 ## To Do
 - [ ] Figure out if we need to check in `bower_components` to source control.
 - [ ] Integrate with [Testling CI](http://ci.testling.com)
-- [ ] See if this can work with Travis CI instead of testling
+- [ ] See if this can work with [Travis CI](https://travis-ci.org)
