@@ -9,3 +9,4 @@ Make sure `browserify` is installed globally (`npm i -g browserify`).
 
 ## To Do
 - [ ] Figure out if we need to check in `bower_components` to source control.
+- [ ] Integrate with [Testling CI](http://ci.testling.com)
