@@ -1,6 +1,6 @@
 # Testling Backbone Boilerplate
 
-[![browser support](https://ci.testling.com/nickb1080/testling-backbone-boilerplate.png)
+[![browser support](https://ci.testling.com/wlabranche/testling-backbone-boilerplate.png)
 ](https://ci.testling.com/nickb1080/testling-backbone-boilerplate)
 
 Basic setup for testing a Backbone front-end with [testling](https://github.com/substack/testling).
