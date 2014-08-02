@@ -15,6 +15,15 @@ beforeEach(function() {
 });
 
 describe("Model", function() {
+  it("Should be a function", function () {
+    expect(Model).to.be.a("function");
+  });
+});
+
+describe("Model instances", function() {
+  it("Should be an instance of Model", function() {
+    expect(model).to.be.instanceof(Model);
+  })
   it("Should have a firstName property", function() {
     expect(model.get("firstName")).to.exist;
     return expect(model.get("firstName")).to.equal("John");

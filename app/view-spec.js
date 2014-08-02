@@ -25,7 +25,16 @@ afterEach(function() {
   return view.remove();
 });
 
-describe("View", function() {
+describe("View constructor", function () {
+  it("Should be a function", function () {
+    expect(View).to.be.a("function");
+  });
+});
+
+describe("View instances", function() {
+  it("Should be an instanceof View", function () {
+    expect(view).to.be.instanceof(View);
+  });
   it("Should have a displayContents method", function() {
     return expect(view.displayContents).to.be.a("function");
   });
