@@ -1,0 +1,30 @@
+{
+  "name": "testling-boilerplate",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testling"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "jquery": "^2.1.1",
+    "mocha": "^1.21.3"
+  },
+  "testling": {
+    "harness": "mocha",
+    "browsers": [
+      "chrome/latest"
+    ],
+    "files": ["./app/*.js"],
+    "scripts": [
+      "./misc.js",
+      "./bower_components/chai/chai.js",
+      "./bower_components/jquery/dist/jquery.js",
+      "./bower_components/underscore/underscore.js",
+      "./bower_components/backbone/backbone.js"
+    ]
+  }
+}
