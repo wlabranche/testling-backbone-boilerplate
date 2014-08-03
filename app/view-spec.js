@@ -47,10 +47,10 @@ describe("View instances", function() {
   });
   return it("Should have working events", function() {
     $(".cell.first-name").click();
-    expect(window.lastContent).to.equal("John");
+    expect(view.lastDisplayed).to.equal("John");
     $(".cell.last-name").click();
-    expect(window.lastContent).to.equal("Doe");
+    expect(view.lastDisplayed).to.equal("Doe");
     $(".cell.age").click();
-    return expect(window.lastContent).to.equal("30");
+    return expect(view.lastDisplayed).to.equal("30");
   });
 });
