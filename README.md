@@ -1,6 +1,6 @@
 # Testling Backbone Boilerplate
 
-[![Build Status](https://travis-ci.org/omnibus-app/testling-backbone-boilerplate.svg?branch=master)](https://travis-ci.org/omnibus-app/testling-backbone-boilerplate)
+[![Build Status](http://img.shields.io/omnibus-app/testling-backbone-boilerplate/node.svg?style=flat)](https://travis-ci.org/omnibus-app/testling-backbone-boilerplate)
 
 [![browser support](https://ci.testling.com/nickb1080/testling-backbone-boilerplate.png)
 ](https://ci.testling.com/nickb1080/testling-backbone-boilerplate)
