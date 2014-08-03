@@ -13,8 +13,14 @@
     "jquery": "^2.1.1"
   },
   "devDependencies": {
+    "coverify": "^1.0.7",
     "mocha": "^1.21.3",
     "chai": "^1.9.1"
+  },
+  "browserify": {
+    "transform": [
+      "coverify"
+    ]
   },
   "testling": {
     "harness": "mocha-bdd",
