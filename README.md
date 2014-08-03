@@ -7,8 +7,15 @@
 
 Basic setup for testing a Backbone front-end with [testling](https://github.com/substack/testling).
 
-Make sure `browserify` and `testling` are installed globally. Run `npm test` and enjoy.
+## Unit Tests
+1.) Install `testling` globally.
+2.) Run `npm test` enjoy.
+
+## Code Coverage
+1.) Install `coverify` globally.
+2.) run `testling | coverify` for coverage data
 
 ## To Do
-- [ ] Integrate with [Testling CI](http://ci.testling.com)
+- [x] Integrate with [Testling CI](http://ci.testling.com)
 - [x] See if this can work with [Travis CI](https://travis-ci.org)
+- [ ] Figure out if we can instrument only non-test files with `coverify`; including specs skews our code coverage.
