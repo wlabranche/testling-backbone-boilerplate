@@ -1,5 +1,6 @@
 # Testling Backbone Boilerplate
 
+test
 
 
 [![browser support](https://ci.testling.com/wlabranche/testling-backbone-boilerplate.png)
